@@ -125,7 +125,6 @@ for line in f.readlines():
 f.close()
 ans=[]
 pc="0000000"
-print(addresses)
 while (addresses[pc].split()[-1])!="hlt":
     ins=int(pc,2)
     t=""
